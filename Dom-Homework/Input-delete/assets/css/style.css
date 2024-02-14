@@ -1,0 +1,10 @@
+.align-li {
+    display: flex;
+    justify-content: space-between;
+}
+
+.align-icon {
+    float: right;
+    color: red;
+    font-size: 25px;
+}
