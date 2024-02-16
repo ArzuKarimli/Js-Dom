@@ -1,5 +1,38 @@
 "use strict"
 
+// let name="Ilham";
+// let result = [...name];
+// console.log(result);
+
+// let nums1= [1,2,3,4,5];
+
+// let nums2= [100,200,300];
+
+// let res=[...nums1,...nums2];
+
+// console.log(res);
+
+// function showNums(...numbers){
+//     numbers.forEach(element =>{
+//      console.log(element);
+//     })
+// }
+
+// showNums(1,2,3,4,5);
+
+// function test(){
+//     console.log(arguments);
+// }
+// test(1,2,3,4,5);
+
+// function test(){
+//     arguments.forEach(element =>{
+//         console.log(element);
+//        })
+// }
+// test(1,2,3,4,5);
+
+
 //let h1=document.getElementsByTagName("h1");
 //  let elems = document.getElementsByClassName("test");
 // for (const item of elems) {
@@ -78,10 +111,10 @@ document.querySelector(".add").addEventListener("click", function () {
     if (text.trim() == "") {
         document.querySelector(".validation").classList.remove("d-none");
         return;
-    }else{
+    } else {
         document.querySelector(".validation").classList.add("d-none");
     }
-   
+
 
     let li = document.createElement("li");
     li.className = "list-group-item";
